@@ -5,3 +5,4 @@ __pycache__/
 uv.lock
 scrape.log
 /dist/
+.DS_Store
