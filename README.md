@@ -1,6 +1,6 @@
 # Tent Scraper
 
-Prototype Python pour collecter des fiches de tentes, extraire leurs caractéristiques avec Claude Code CLI et les envoyer vers NocoDB. Le dépôt existant reste privé.
+Prototype Python pour collecter des fiches de tentes, extraire leurs caractéristiques avec Claude Code CLI et les envoyer vers NocoDB.
 
 ## Fonctionnement présent dans le code
 
@@ -32,3 +32,7 @@ Pour une exécution réelle, installer et authentifier séparément Claude Code 
 - Claude peut transmettre le contenu des pages à son service. NocoDB reçoit les données extraites et le JSON brut. Ne pas déposer de clés, pages privées ou données personnelles dans les sources.
 
 Les tests simulés passent ; ni la qualité d'une collecte réelle, ni Claude, ni la compatibilité avec une instance NocoDB ne sont certifiés. Voir [VERIFICATION.md](VERIFICATION.md). Aucune capture ni application téléchargeable n'est fournie : les sources constituent le livrable.
+
+## Dépôt et téléchargement
+
+[Voir le dépôt](https://github.com/cpointis96-hue/tente-scraperv2) · [Télécharger les sources ZIP](https://github.com/cpointis96-hue/tente-scraperv2/archive/HEAD.zip). Le ZIP contient les sources, sans service configuré.
