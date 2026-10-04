@@ -1,12 +1,22 @@
 # Tent Scraper
 
-Prototype Python pour collecter des fiches de tentes, extraire leurs caractéristiques avec Claude Code CLI et les envoyer vers NocoDB.
+## En bref
+
+**Ce que c’est :** un outil en ligne de commande pour collecter des fiches de tentes.
+
+**À quoi il sert :** parcourir des pages autorisées, extraire leurs caractéristiques dans un format structuré, télécharger les images et préparer une synchronisation NocoDB.
+
+**Ce qui a été réalisé :** collecte Playwright, extraction JSON via Claude Code CLI, téléchargement httpx et logique d’insertion ou de mise à jour NocoDB.
+
+**Technologies :** Python 3.12+, Playwright, Chromium, httpx, python-dotenv, Claude Code CLI et API REST NocoDB.
+
+Le dépôt fournit une ligne de commande, pas une interface graphique. Les services réels demandent une configuration et une validation séparées.
 
 ## Fonctionnement présent dans le code
 
 `main.py` charge `brands.json`, ouvre Chromium avec Playwright, cherche les liens de produits, développe les éléments interactifs et sauvegarde leur HTML. Les images sont téléchargées avec httpx. `extractor.py` appelle `claude -p` pour produire du JSON ; `nocodb.py` crée ou complète une table puis insère ou met à jour les lignes selon marque et modèle.
 
-Stack : Python ≥ 3.12, Playwright, httpx, python-dotenv, Claude Code CLI et API REST NocoDB. Ce projet fournit une ligne de commande, pas une interface graphique.
+Les détails d’installation et de fonctionnement restent documentés ci-dessous.
 
 ## Installation et utilisation
 
