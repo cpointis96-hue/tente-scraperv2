@@ -6,3 +6,10 @@ uv.lock
 scrape.log
 /dist/
 .DS_Store
+.env.*
+!.env.example
+.pytest_cache/
+/html/
+/extracted/
+/images/
+*.log
