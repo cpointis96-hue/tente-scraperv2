@@ -1,4 +1,21 @@
-# Tent Scraper
+# Collecte de fiches produit pour un catalogue de tentes
+
+## Le projet en quelques mots
+
+Je travaille sur un outil qui rassemble les informations de fiches produit pour préparer un catalogue de matériel. Il vise à éviter de recopier manuellement chaque caractéristique et à faciliter les comparaisons.
+
+Le prototype collecte des pages, prépare des caractéristiques structurées, télécharge des images et organise leur transfert vers une base de données. Les informations extraites doivent être contrôlées avant utilisation.
+
+## Comment le découvrir
+
+Cette fiche explique le fonctionnement sans installation. Le projet ne possède pas d'écran de démonstration : il s'utilise par commandes et demande plusieurs services configurés. Télécharger le ZIP ne fournit donc pas une application prête à ouvrir.
+
+Les essais existants utilisent des réponses simulées. Une collecte complète sur des sites réels reste à vérifier.
+
+## Détails pour reprendre le projet
+
+<details>
+<summary>Fonctionnement, installation et limites techniques</summary>
 
 ## En bref
 
@@ -46,3 +63,5 @@ Les tests simulés passent ; ni la qualité d'une collecte réelle, ni Claude, n
 ## Dépôt et téléchargement
 
 [Voir le dépôt](https://github.com/cpointis96-hue/tente-scraperv2) · [Télécharger les sources ZIP](https://github.com/cpointis96-hue/tente-scraperv2/archive/HEAD.zip). Le ZIP contient les sources, sans service configuré.
+
+</details>
